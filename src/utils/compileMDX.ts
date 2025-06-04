@@ -3,7 +3,7 @@ import {MDXComponents} from 'components/MDX/MDXComponents';
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // ~~~~ IMPORTANT: BUMP THIS IF YOU CHANGE ANY CODE BELOW ~~~
-const DISK_CACHE_BREAKER = 10;
+const DISK_CACHE_BREAKER = 11;
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 export default async function compileMDX(
@@ -33,7 +33,7 @@ export default async function compileMDX(
       mdxComponentNames,
       DISK_CACHE_BREAKER,
       PREPARE_MDX_CACHE_BREAKER,
-      lockfile: fs.readFileSync(process.cwd() + '/yarn.lock', 'utf8'),
+      lockfile: fs.readFileSync(process.cwd() + '/pnpm-lock.yaml', 'utf8'),
     })
   );
   const cached = await store.get(hash);
@@ -99,6 +99,8 @@ export default async function compileMDX(
   const fakeRequire = (name: string) => {
     if (name === 'react/jsx-runtime') {
       return require('react/jsx-runtime');
+    } else if (name === 'react/jsx-dev-runtime') {
+      return require('react/jsx-dev-runtime');
     } else {
       // For each fake MDX import, give back the string component name.
       // It will get serialized later.

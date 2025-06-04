@@ -13,6 +13,7 @@ const nextConfig = {
     reactCompiler: true,
   },
   env: {},
+  turbopack: {},
   webpack: (config, {dev, isServer, ...options}) => {
     if (process.env.ANALYZE) {
       const {BundleAnalyzerPlugin} = require('webpack-bundle-analyzer');

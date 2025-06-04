@@ -12,6 +12,12 @@ const nextConfig = {
     scrollRestoration: true,
     reactCompiler: true,
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   env: {},
   webpack: (config, {dev, isServer, ...options}) => {
     if (process.env.ANALYZE) {

@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  next: https://vercel-packages.vercel.app/next/commits/c3296f2eca370db40976e396cd1ae75bf591d67e/next
+  '@next/mdx': https://vercel-packages.vercel.app/next/commits/c3296f2eca370db40976e396cd1ae75bf591d67e/@next/mdx
+  '@next/env': https://vercel-packages.vercel.app/next/commits/c3296f2eca370db40976e396cd1ae75bf591d67e/@next/env
+
 importers:
 
   .:
@@ -41,6 +46,9 @@ importers:
       '@lezer/highlight':
         specifier: ^1.2.1
         version: 1.2.1
+      '@next/swc-linux-x64-gnu':
+        specifier: https://vercel-packages.vercel.app/next/commits/c3296f2eca370db40976e396cd1ae75bf591d67e/@next/swc-linux-x64-gnu
+        version: https://vercel-packages.vercel.app/next/commits/c3296f2eca370db40976e396cd1ae75bf591d67e/@next/swc-linux-x64-gnu
       '@radix-ui/react-context-menu':
         specifier: ^2.1.5
         version: 2.2.15(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -63,8 +71,8 @@ importers:
         specifier: ^1.3.0
         version: 1.5.0
       next:
-        specifier: 15.4.0-canary.69
-        version: 15.4.0-canary.69(@babel/core@7.27.4)(babel-plugin-react-compiler@19.0.0-beta-e552027-20250112)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: https://vercel-packages.vercel.app/next/commits/c3296f2eca370db40976e396cd1ae75bf591d67e/next
+        version: https://vercel-packages.vercel.app/next/commits/c3296f2eca370db40976e396cd1ae75bf591d67e/next(@babel/core@7.27.4)(babel-plugin-react-compiler@19.0.0-beta-e552027-20250112)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       next-remote-watch:
         specifier: ^1.0.0
         version: 1.0.0
@@ -149,7 +157,7 @@ importers:
         version: 7.32.0
       eslint-config-next:
         specifier: 12.0.3
-        version: 12.0.3(eslint@7.32.0)(next@15.4.0-canary.69(@babel/core@7.27.4)(babel-plugin-react-compiler@19.0.0-beta-e552027-20250112)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(typescript@5.8.3)
+        version: 12.0.3(eslint@7.32.0)(next@https://vercel-packages.vercel.app/next/commits/c3296f2eca370db40976e396cd1ae75bf591d67e/next(@babel/core@7.27.4)(babel-plugin-react-compiler@19.0.0-beta-e552027-20250112)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(typescript@5.8.3)
       eslint-config-react-app:
         specifier: ^5.2.1
         version: 5.2.1(@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@5.62.0(eslint@7.32.0)(typescript@5.8.3))(eslint@7.32.0)(typescript@5.8.3))(@typescript-eslint/parser@5.62.0(eslint@7.32.0)(typescript@5.8.3))(babel-eslint@10.1.0(eslint@7.32.0))(eslint-plugin-flowtype@4.7.0(eslint@7.32.0))(eslint-plugin-import@2.31.0)(eslint-plugin-jsx-a11y@6.10.2(eslint@7.32.0))(eslint-plugin-react-hooks@0.0.0(eslint@7.32.0))(eslint-plugin-react@7.37.5(eslint@7.32.0))(eslint@7.32.0)(typescript@5.8.3)
@@ -767,59 +775,18 @@ packages:
   '@mdx-js/mdx@2.3.0':
     resolution: {integrity: sha512-jLuwRlz8DQfQNiUCJR50Y09CGPq3fLtmtUQfVrj79E0JWu3dvsVcxVIcfhR5h0iXu+/z++zDrYeiJqifRynJkA==}
 
-  '@next/env@15.4.0-canary.69':
-    resolution: {integrity: sha512-e88KQWrPzKlNQ6PENVGz2KTWec9BYflckhIPv1vE66s8J0ZpRzNJ0no+C6Stcdsg/pheQOdTsErDoLWb6M/vbw==}
+  '@next/env@https://vercel-packages.vercel.app/next/commits/c3296f2eca370db40976e396cd1ae75bf591d67e/@next/env':
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/c3296f2eca370db40976e396cd1ae75bf591d67e/@next/env}
+    version: 15.4.0-preview-c3296f2e-20250623
 
   '@next/eslint-plugin-next@12.0.3':
     resolution: {integrity: sha512-P7i+bMypneQcoRN+CX79xssvvIJCaw7Fndzbe7/lB0+LyRbVvGVyMUsFmLLbSxtZq4hvFMJ1p8wML/gsulMZWQ==}
 
-  '@next/swc-darwin-arm64@15.4.0-canary.69':
-    resolution: {integrity: sha512-LZ3HhaVFuoHrm7U3Q5agi9N2ynYq+kIDKMiR89njTaJL+ifB0VaVFQH6+AY+zwUcYqnaS0p5hZRD/MKMG0BVBw==}
+  '@next/swc-linux-x64-gnu@https://vercel-packages.vercel.app/next/commits/c3296f2eca370db40976e396cd1ae75bf591d67e/@next/swc-linux-x64-gnu':
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/c3296f2eca370db40976e396cd1ae75bf591d67e/@next/swc-linux-x64-gnu}
+    version: 15.4.0-preview-c3296f2e-20250623
     engines: {node: '>= 10'}
-    cpu: [arm64]
-    os: [darwin]
-
-  '@next/swc-darwin-x64@15.4.0-canary.69':
-    resolution: {integrity: sha512-3p1Pk8QsOqsZdPVf2PykI9HaDs/GzAw66qfhFDpZoEY16HXZ2DAsXy4vhr/N3Tr1Stu9exVwXlilXrk3PB8IbQ==}
-    engines: {node: '>= 10'}
-    cpu: [x64]
-    os: [darwin]
-
-  '@next/swc-linux-arm64-gnu@15.4.0-canary.69':
-    resolution: {integrity: sha512-BLOMWUPUgPdE2PAKVorFVz086O/fVPf4ncuyOShEsgdBimNJe9J4fAsVE4tL9M9c3fFC6xzhNeL1qGG+gWeQDA==}
-    engines: {node: '>= 10'}
-    cpu: [arm64]
     os: [linux]
-
-  '@next/swc-linux-arm64-musl@15.4.0-canary.69':
-    resolution: {integrity: sha512-WkFbIgjINEG+ZM3crsXqG6MkEnZnkszftWieZ7G5k6GpBYk/MotIFEz/MsVeqJ0tVO193bh/NnXN8FfvxzdS0A==}
-    engines: {node: '>= 10'}
-    cpu: [arm64]
-    os: [linux]
-
-  '@next/swc-linux-x64-gnu@15.4.0-canary.69':
-    resolution: {integrity: sha512-QR8KQNqUnPVwDQKGOZyEMGDWzqbev2aHEys6/SiXptreyQn9z7CyBOhTTLhrIpuKrDZUW2OWEFWI5KyKHBoRhg==}
-    engines: {node: '>= 10'}
-    cpu: [x64]
-    os: [linux]
-
-  '@next/swc-linux-x64-musl@15.4.0-canary.69':
-    resolution: {integrity: sha512-7FHtfp093CUUtI3B6cDaD/vnaSzsz+yQjeEn3p2lrbjVf5o7f3gL2PovmFo6Yyh/DBqOohkmqJf+n1pcvePR2w==}
-    engines: {node: '>= 10'}
-    cpu: [x64]
-    os: [linux]
-
-  '@next/swc-win32-arm64-msvc@15.4.0-canary.69':
-    resolution: {integrity: sha512-d7F7ABYEo0ETBOlBiL1VBnAEOZIkHvWhZs0vXqnT+8tHCFRVRnK4JTIuMP/z8JZLEs5UATSBqSXS0GjROALqWA==}
-    engines: {node: '>= 10'}
-    cpu: [arm64]
-    os: [win32]
-
-  '@next/swc-win32-x64-msvc@15.4.0-canary.69':
-    resolution: {integrity: sha512-pjJfurCmyTAnbQZ9xOuRVulwiiqnQSEpichINIiPCWCwYunaDGeMrh1PGkEbHkXoPHydZzeaxGxJajSPzl7YCg==}
-    engines: {node: '>= 10'}
-    cpu: [x64]
-    os: [win32]
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -1950,9 +1917,10 @@ packages:
 
   eslint-config-next@12.0.3:
     resolution: {integrity: sha512-q+mX6jhk3HrCo39G18MLhiC6f8zJnTA00f30RSuVUWsv45SQUm6r62oXVqrbAgMEybe0yx/GDRvfA6LvSolw6Q==}
+    version: 12.0.3
     peerDependencies:
       eslint: ^7.23.0
-      next: '>=10.2.0'
+      next: https://vercel-packages.vercel.app/next/commits/c3296f2eca370db40976e396cd1ae75bf591d67e/next
       typescript: '>=3.3.1'
     peerDependenciesMeta:
       typescript:
@@ -3083,13 +3051,14 @@ packages:
   next-tick@1.1.0:
     resolution: {integrity: sha512-CXdUiJembsNjuToQvxayPZF9Vqht7hewsvy2sOWafLvi2awflj9mOC6bHIg50orX8IJvWKY9wYQ/zB2kogPslQ==}
 
-  next@15.4.0-canary.69:
-    resolution: {integrity: sha512-LDtR6T6AESF9yF8+v8RGKCCv6UN9KU0qynbtVBBA6Jzk9RmlkaUkCifhUqqrLz1okRf5tbJyuvhcu0jbRW7BDQ==}
+  next@https://vercel-packages.vercel.app/next/commits/c3296f2eca370db40976e396cd1ae75bf591d67e/next:
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/c3296f2eca370db40976e396cd1ae75bf591d67e/next}
+    version: 15.4.0-preview-c3296f2e-20250623
     engines: {node: ^18.18.0 || ^19.8.0 || >= 20.0.0}
     hasBin: true
     peerDependencies:
       '@opentelemetry/api': ^1.1.0
-      '@playwright/test': ^1.41.2
+      '@playwright/test': ^1.51.1
       babel-plugin-react-compiler: '*'
       react: ^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0
       react-dom: ^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0
@@ -4999,35 +4968,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@next/env@15.4.0-canary.69': {}
+  '@next/env@https://vercel-packages.vercel.app/next/commits/c3296f2eca370db40976e396cd1ae75bf591d67e/@next/env': {}
 
   '@next/eslint-plugin-next@12.0.3':
     dependencies:
       glob: 7.1.7
 
-  '@next/swc-darwin-arm64@15.4.0-canary.69':
-    optional: true
-
-  '@next/swc-darwin-x64@15.4.0-canary.69':
-    optional: true
-
-  '@next/swc-linux-arm64-gnu@15.4.0-canary.69':
-    optional: true
-
-  '@next/swc-linux-arm64-musl@15.4.0-canary.69':
-    optional: true
-
-  '@next/swc-linux-x64-gnu@15.4.0-canary.69':
-    optional: true
-
-  '@next/swc-linux-x64-musl@15.4.0-canary.69':
-    optional: true
-
-  '@next/swc-win32-arm64-msvc@15.4.0-canary.69':
-    optional: true
-
-  '@next/swc-win32-x64-msvc@15.4.0-canary.69':
-    optional: true
+  '@next/swc-linux-x64-gnu@https://vercel-packages.vercel.app/next/commits/c3296f2eca370db40976e396cd1ae75bf591d67e/@next/swc-linux-x64-gnu': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -6212,7 +6159,7 @@ snapshots:
 
   escape-string-regexp@5.0.0: {}
 
-  eslint-config-next@12.0.3(eslint@7.32.0)(next@15.4.0-canary.69(@babel/core@7.27.4)(babel-plugin-react-compiler@19.0.0-beta-e552027-20250112)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(typescript@5.8.3):
+  eslint-config-next@12.0.3(eslint@7.32.0)(next@https://vercel-packages.vercel.app/next/commits/c3296f2eca370db40976e396cd1ae75bf591d67e/next(@babel/core@7.27.4)(babel-plugin-react-compiler@19.0.0-beta-e552027-20250112)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(typescript@5.8.3):
     dependencies:
       '@next/eslint-plugin-next': 12.0.3
       '@rushstack/eslint-patch': 1.11.0
@@ -6224,7 +6171,7 @@ snapshots:
       eslint-plugin-jsx-a11y: 6.10.2(eslint@7.32.0)
       eslint-plugin-react: 7.37.5(eslint@7.32.0)
       eslint-plugin-react-hooks: 4.6.2(eslint@7.32.0)
-      next: 15.4.0-canary.69(@babel/core@7.27.4)(babel-plugin-react-compiler@19.0.0-beta-e552027-20250112)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      next: https://vercel-packages.vercel.app/next/commits/c3296f2eca370db40976e396cd1ae75bf591d67e/next(@babel/core@7.27.4)(babel-plugin-react-compiler@19.0.0-beta-e552027-20250112)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
     optionalDependencies:
       typescript: 5.8.3
     transitivePeerDependencies:
@@ -7787,9 +7734,9 @@ snapshots:
 
   next-tick@1.1.0: {}
 
-  next@15.4.0-canary.69(@babel/core@7.27.4)(babel-plugin-react-compiler@19.0.0-beta-e552027-20250112)(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+  next@https://vercel-packages.vercel.app/next/commits/c3296f2eca370db40976e396cd1ae75bf591d67e/next(@babel/core@7.27.4)(babel-plugin-react-compiler@19.0.0-beta-e552027-20250112)(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
-      '@next/env': 15.4.0-canary.69
+      '@next/env': https://vercel-packages.vercel.app/next/commits/c3296f2eca370db40976e396cd1ae75bf591d67e/@next/env
       '@swc/helpers': 0.5.15
       caniuse-lite: 1.0.30001723
       postcss: 8.4.31
@@ -7797,14 +7744,7 @@ snapshots:
       react-dom: 19.1.0(react@19.1.0)
       styled-jsx: 5.1.6(@babel/core@7.27.4)(react@19.1.0)
     optionalDependencies:
-      '@next/swc-darwin-arm64': 15.4.0-canary.69
-      '@next/swc-darwin-x64': 15.4.0-canary.69
-      '@next/swc-linux-arm64-gnu': 15.4.0-canary.69
-      '@next/swc-linux-arm64-musl': 15.4.0-canary.69
-      '@next/swc-linux-x64-gnu': 15.4.0-canary.69
-      '@next/swc-linux-x64-musl': 15.4.0-canary.69
-      '@next/swc-win32-arm64-msvc': 15.4.0-canary.69
-      '@next/swc-win32-x64-msvc': 15.4.0-canary.69
+      '@next/swc-linux-x64-gnu': https://vercel-packages.vercel.app/next/commits/c3296f2eca370db40976e396cd1ae75bf591d67e/@next/swc-linux-x64-gnu
       babel-plugin-react-compiler: 19.0.0-beta-e552027-20250112
       sharp: 0.34.2
     transitivePeerDependencies:

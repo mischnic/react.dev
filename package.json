@@ -48,7 +48,8 @@
     "react-collapsed": "4.0.4",
     "react-dom": "^19.0.0",
     "remark-frontmatter": "^4.0.1",
-    "remark-gfm": "^3.0.1"
+    "remark-gfm": "^3.0.1",
+    "@next/swc-linux-x64-gnu": "https://vercel-packages.vercel.app/next/commits/f00a5229fa9f9d3bd797c6f75d47cdc40b15b634/@next/swc-linux-x64-gnu"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -118,5 +119,12 @@
   "lint-staged": {
     "*.{js,ts,jsx,tsx,css}": "yarn prettier",
     "src/**/*.md": "yarn fix-headings"
+  },
+  "pnpm": {
+    "overrides": {
+      "next": "https://vercel-packages.vercel.app/next/commits/f00a5229fa9f9d3bd797c6f75d47cdc40b15b634/next",
+      "@next/mdx": "https://vercel-packages.vercel.app/next/commits/f00a5229fa9f9d3bd797c6f75d47cdc40b15b634/@next/mdx",
+      "@next/env": "https://vercel-packages.vercel.app/next/commits/f00a5229fa9f9d3bd797c6f75d47cdc40b15b634/@next/env"
+    }
   }
 }

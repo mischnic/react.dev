@@ -10,7 +10,6 @@ const nextConfig = {
   reactStrictMode: true,
   experimental: {
     scrollRestoration: true,
-    reactCompiler: true,
   },
   env: {},
   webpack: (config, {dev, isServer, ...options}) => {

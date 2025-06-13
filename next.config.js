@@ -10,7 +10,6 @@ const nextConfig = {
   reactStrictMode: true,
   experimental: {
     scrollRestoration: true,
-    reactCompiler: true,
   },
   typescript: {
     ignoreBuildErrors: true,

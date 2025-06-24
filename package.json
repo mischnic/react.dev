@@ -49,7 +49,7 @@
     "react-dom": "^19.0.0",
     "remark-frontmatter": "^4.0.1",
     "remark-gfm": "^3.0.1",
-    "@next/swc-linux-x64-gnu": "https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-linux-x64-gnu"
+    "@next/swc-linux-x64-gnu": "https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-linux-x64-gnu"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -122,9 +122,9 @@
   },
   "pnpm": {
     "overrides": {
-      "next": "https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/next",
-      "@next/mdx": "https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/mdx",
-      "@next/env": "https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/env"
+      "next": "https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/next",
+      "@next/mdx": "https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/mdx",
+      "@next/env": "https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/env"
     }
   }
 }

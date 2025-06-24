@@ -5,9 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  next: https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/next
-  '@next/mdx': https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/mdx
-  '@next/env': https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/env
+  next: https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/next
+  '@next/mdx': https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/mdx
+  '@next/env': https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/env
 
 importers:
 
@@ -47,8 +47,8 @@ importers:
         specifier: ^1.2.1
         version: 1.2.1
       '@next/swc-linux-x64-gnu':
-        specifier: https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-linux-x64-gnu
-        version: https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-linux-x64-gnu
+        specifier: https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-linux-x64-gnu
+        version: https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-linux-x64-gnu
       '@radix-ui/react-context-menu':
         specifier: ^2.1.5
         version: 2.2.15(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -71,8 +71,8 @@ importers:
         specifier: ^1.3.0
         version: 1.5.0
       next:
-        specifier: https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/next
-        version: https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/next(@babel/core@7.27.4)(babel-plugin-react-compiler@19.0.0-beta-e552027-20250112)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/next
+        version: https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/next(@babel/core@7.27.4)(babel-plugin-react-compiler@19.0.0-beta-e552027-20250112)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       next-remote-watch:
         specifier: ^1.0.0
         version: 1.0.0
@@ -157,7 +157,7 @@ importers:
         version: 7.32.0
       eslint-config-next:
         specifier: 12.0.3
-        version: 12.0.3(eslint@7.32.0)(next@https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/next(@babel/core@7.27.4)(babel-plugin-react-compiler@19.0.0-beta-e552027-20250112)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(typescript@5.8.3)
+        version: 12.0.3(eslint@7.32.0)(next@https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/next(@babel/core@7.27.4)(babel-plugin-react-compiler@19.0.0-beta-e552027-20250112)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(typescript@5.8.3)
       eslint-config-react-app:
         specifier: ^5.2.1
         version: 5.2.1(@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@5.62.0(eslint@7.32.0)(typescript@5.8.3))(eslint@7.32.0)(typescript@5.8.3))(@typescript-eslint/parser@5.62.0(eslint@7.32.0)(typescript@5.8.3))(babel-eslint@10.1.0(eslint@7.32.0))(eslint-plugin-flowtype@4.7.0(eslint@7.32.0))(eslint-plugin-import@2.31.0)(eslint-plugin-jsx-a11y@6.10.2(eslint@7.32.0))(eslint-plugin-react-hooks@0.0.0(eslint@7.32.0))(eslint-plugin-react@7.37.5(eslint@7.32.0))(eslint@7.32.0)(typescript@5.8.3)
@@ -775,58 +775,58 @@ packages:
   '@mdx-js/mdx@2.3.0':
     resolution: {integrity: sha512-jLuwRlz8DQfQNiUCJR50Y09CGPq3fLtmtUQfVrj79E0JWu3dvsVcxVIcfhR5h0iXu+/z++zDrYeiJqifRynJkA==}
 
-  '@next/env@https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/env':
-    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/env}
-    version: 15.4.0-preview-fbdec18a-20250623
+  '@next/env@https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/env':
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/env}
+    version: 15.4.0-preview-370b0971-20250624
 
   '@next/eslint-plugin-next@12.0.3':
     resolution: {integrity: sha512-P7i+bMypneQcoRN+CX79xssvvIJCaw7Fndzbe7/lB0+LyRbVvGVyMUsFmLLbSxtZq4hvFMJ1p8wML/gsulMZWQ==}
 
-  '@next/swc-darwin-arm64@https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-darwin-arm64':
-    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-darwin-arm64}
-    version: 15.4.0-preview-fbdec18a-20250623
+  '@next/swc-darwin-arm64@https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-darwin-arm64':
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-darwin-arm64}
+    version: 15.4.0-preview-370b0971-20250624
     engines: {node: '>= 10'}
     os: [darwin]
 
-  '@next/swc-darwin-x64@https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-darwin-x64':
-    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-darwin-x64}
-    version: 15.4.0-preview-fbdec18a-20250623
+  '@next/swc-darwin-x64@https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-darwin-x64':
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-darwin-x64}
+    version: 15.4.0-preview-370b0971-20250624
     engines: {node: '>= 10'}
     os: [darwin]
 
-  '@next/swc-linux-arm64-gnu@https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-linux-arm64-gnu':
-    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-linux-arm64-gnu}
-    version: 15.4.0-preview-fbdec18a-20250623
+  '@next/swc-linux-arm64-gnu@https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-linux-arm64-gnu':
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-linux-arm64-gnu}
+    version: 15.4.0-preview-370b0971-20250624
     engines: {node: '>= 10'}
     os: [linux]
 
-  '@next/swc-linux-arm64-musl@https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-linux-arm64-musl':
-    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-linux-arm64-musl}
-    version: 15.4.0-preview-fbdec18a-20250623
+  '@next/swc-linux-arm64-musl@https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-linux-arm64-musl':
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-linux-arm64-musl}
+    version: 15.4.0-preview-370b0971-20250624
     engines: {node: '>= 10'}
     os: [linux]
 
-  '@next/swc-linux-x64-gnu@https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-linux-x64-gnu':
-    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-linux-x64-gnu}
-    version: 15.4.0-preview-fbdec18a-20250623
+  '@next/swc-linux-x64-gnu@https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-linux-x64-gnu':
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-linux-x64-gnu}
+    version: 15.4.0-preview-370b0971-20250624
     engines: {node: '>= 10'}
     os: [linux]
 
-  '@next/swc-linux-x64-musl@https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-linux-x64-musl':
-    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-linux-x64-musl}
-    version: 15.4.0-preview-fbdec18a-20250623
+  '@next/swc-linux-x64-musl@https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-linux-x64-musl':
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-linux-x64-musl}
+    version: 15.4.0-preview-370b0971-20250624
     engines: {node: '>= 10'}
     os: [linux]
 
-  '@next/swc-win32-arm64-msvc@https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-win32-arm64-msvc':
-    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-win32-arm64-msvc}
-    version: 15.4.0-preview-fbdec18a-20250623
+  '@next/swc-win32-arm64-msvc@https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-win32-arm64-msvc':
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-win32-arm64-msvc}
+    version: 15.4.0-preview-370b0971-20250624
     engines: {node: '>= 10'}
     os: [win32]
 
-  '@next/swc-win32-x64-msvc@https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-win32-x64-msvc':
-    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-win32-x64-msvc}
-    version: 15.4.0-preview-fbdec18a-20250623
+  '@next/swc-win32-x64-msvc@https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-win32-x64-msvc':
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-win32-x64-msvc}
+    version: 15.4.0-preview-370b0971-20250624
     engines: {node: '>= 10'}
     os: [win32]
 
@@ -1962,7 +1962,7 @@ packages:
     version: 12.0.3
     peerDependencies:
       eslint: ^7.23.0
-      next: https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/next
+      next: https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/next
       typescript: '>=3.3.1'
     peerDependenciesMeta:
       typescript:
@@ -3093,9 +3093,9 @@ packages:
   next-tick@1.1.0:
     resolution: {integrity: sha512-CXdUiJembsNjuToQvxayPZF9Vqht7hewsvy2sOWafLvi2awflj9mOC6bHIg50orX8IJvWKY9wYQ/zB2kogPslQ==}
 
-  next@https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/next:
-    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/next}
-    version: 15.4.0-preview-fbdec18a-20250623
+  next@https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/next:
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/next}
+    version: 15.4.0-preview-370b0971-20250624
     engines: {node: ^18.18.0 || ^19.8.0 || >= 20.0.0}
     hasBin: true
     peerDependencies:
@@ -5010,33 +5010,33 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@next/env@https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/env': {}
+  '@next/env@https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/env': {}
 
   '@next/eslint-plugin-next@12.0.3':
     dependencies:
       glob: 7.1.7
 
-  '@next/swc-darwin-arm64@https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-darwin-arm64':
+  '@next/swc-darwin-arm64@https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-darwin-arm64':
     optional: true
 
-  '@next/swc-darwin-x64@https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-darwin-x64':
+  '@next/swc-darwin-x64@https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-darwin-x64':
     optional: true
 
-  '@next/swc-linux-arm64-gnu@https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-linux-arm64-gnu':
+  '@next/swc-linux-arm64-gnu@https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-linux-arm64-gnu':
     optional: true
 
-  '@next/swc-linux-arm64-musl@https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-linux-arm64-musl':
+  '@next/swc-linux-arm64-musl@https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-linux-arm64-musl':
     optional: true
 
-  '@next/swc-linux-x64-gnu@https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-linux-x64-gnu': {}
+  '@next/swc-linux-x64-gnu@https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-linux-x64-gnu': {}
 
-  '@next/swc-linux-x64-musl@https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-linux-x64-musl':
+  '@next/swc-linux-x64-musl@https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-linux-x64-musl':
     optional: true
 
-  '@next/swc-win32-arm64-msvc@https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-win32-arm64-msvc':
+  '@next/swc-win32-arm64-msvc@https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-win32-arm64-msvc':
     optional: true
 
-  '@next/swc-win32-x64-msvc@https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-win32-x64-msvc':
+  '@next/swc-win32-x64-msvc@https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-win32-x64-msvc':
     optional: true
 
   '@nodelib/fs.scandir@2.1.5':
@@ -6222,7 +6222,7 @@ snapshots:
 
   escape-string-regexp@5.0.0: {}
 
-  eslint-config-next@12.0.3(eslint@7.32.0)(next@https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/next(@babel/core@7.27.4)(babel-plugin-react-compiler@19.0.0-beta-e552027-20250112)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(typescript@5.8.3):
+  eslint-config-next@12.0.3(eslint@7.32.0)(next@https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/next(@babel/core@7.27.4)(babel-plugin-react-compiler@19.0.0-beta-e552027-20250112)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(typescript@5.8.3):
     dependencies:
       '@next/eslint-plugin-next': 12.0.3
       '@rushstack/eslint-patch': 1.11.0
@@ -6234,7 +6234,7 @@ snapshots:
       eslint-plugin-jsx-a11y: 6.10.2(eslint@7.32.0)
       eslint-plugin-react: 7.37.5(eslint@7.32.0)
       eslint-plugin-react-hooks: 4.6.2(eslint@7.32.0)
-      next: https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/next(@babel/core@7.27.4)(babel-plugin-react-compiler@19.0.0-beta-e552027-20250112)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      next: https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/next(@babel/core@7.27.4)(babel-plugin-react-compiler@19.0.0-beta-e552027-20250112)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
     optionalDependencies:
       typescript: 5.8.3
     transitivePeerDependencies:
@@ -7797,9 +7797,9 @@ snapshots:
 
   next-tick@1.1.0: {}
 
-  next@https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/next(@babel/core@7.27.4)(babel-plugin-react-compiler@19.0.0-beta-e552027-20250112)(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+  next@https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/next(@babel/core@7.27.4)(babel-plugin-react-compiler@19.0.0-beta-e552027-20250112)(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
-      '@next/env': https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/env
+      '@next/env': https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/env
       '@swc/helpers': 0.5.15
       caniuse-lite: 1.0.30001723
       postcss: 8.4.31
@@ -7807,14 +7807,14 @@ snapshots:
       react-dom: 19.1.0(react@19.1.0)
       styled-jsx: 5.1.6(@babel/core@7.27.4)(react@19.1.0)
     optionalDependencies:
-      '@next/swc-darwin-arm64': https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-darwin-arm64
-      '@next/swc-darwin-x64': https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-darwin-x64
-      '@next/swc-linux-arm64-gnu': https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-linux-arm64-gnu
-      '@next/swc-linux-arm64-musl': https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-linux-arm64-musl
-      '@next/swc-linux-x64-gnu': https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-linux-x64-gnu
-      '@next/swc-linux-x64-musl': https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-linux-x64-musl
-      '@next/swc-win32-arm64-msvc': https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-win32-arm64-msvc
-      '@next/swc-win32-x64-msvc': https://vercel-packages.vercel.app/next/commits/fbdec18a8031c5a71f0fa3f7fbcfd65ec8f6bbfc/@next/swc-win32-x64-msvc
+      '@next/swc-darwin-arm64': https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-darwin-arm64
+      '@next/swc-darwin-x64': https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-darwin-x64
+      '@next/swc-linux-arm64-gnu': https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-linux-arm64-gnu
+      '@next/swc-linux-arm64-musl': https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-linux-arm64-musl
+      '@next/swc-linux-x64-gnu': https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-linux-x64-gnu
+      '@next/swc-linux-x64-musl': https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-linux-x64-musl
+      '@next/swc-win32-arm64-msvc': https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-win32-arm64-msvc
+      '@next/swc-win32-x64-msvc': https://vercel-packages.vercel.app/next/commits/370b0971aa6d986d99c5047b451c9a88363fadf8/@next/swc-win32-x64-msvc
       babel-plugin-react-compiler: 19.0.0-beta-e552027-20250112
       sharp: 0.34.2
     transitivePeerDependencies:
